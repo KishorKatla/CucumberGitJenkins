@@ -112,28 +112,28 @@ formatter.match({
   "location": "SmokeTest.open_firefox_and_start_application()"
 });
 formatter.result({
-  "duration": 3948239732,
+  "duration": 9912874603,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.i_enter_valid_userName_and_valid_password()"
 });
 formatter.result({
-  "duration": 923986170,
+  "duration": 2496099349,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.user_should_be_able_to_login_successfully()"
 });
 formatter.result({
-  "duration": 2285970686,
+  "duration": 2238774639,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.application_should_be_closed()"
 });
 formatter.result({
-  "duration": 4394647,
+  "duration": 35371823,
   "status": "passed"
 });
 });
