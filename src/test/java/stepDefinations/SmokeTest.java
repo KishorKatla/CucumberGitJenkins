@@ -2,6 +2,7 @@ package stepDefinations;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.opera.OperaDriver;
 
 import cucumber.api.java.en.Given;
@@ -14,8 +15,8 @@ public class SmokeTest {
 
 	@Given("^Open firefox and start application$")
 	public void open_firefox_and_start_application() throws Throwable {
-		System.setProperty("webdriver.opera.driver", "operadriver.exe");
-		driver = new OperaDriver();
+		
+		driver = new HtmlUnitDriver();
 		driver.navigate().to("http://facebook.com");
 
 	}

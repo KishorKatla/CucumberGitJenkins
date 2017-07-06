@@ -5,12 +5,12 @@
       {
         "name": "application should be closed",
         "aggregatedDurations": {
-          "average": 1.431106498,
-          "median": 1.431106498
+          "average": 0.002403937,
+          "median": 0.002403937
         },
         "durations": [
           {
-            "duration": 1.431106498,
+            "duration": 0.002403937,
             "location": "MyApplication.feature:27"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "Open firefox and start application",
         "aggregatedDurations": {
-          "average": 6.626401888,
-          "median": 6.626401888
+          "average": 8.417815457,
+          "median": 8.417815457
         },
         "durations": [
           {
-            "duration": 6.626401888,
+            "duration": 8.417815457,
             "location": "MyApplication.feature:24"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "I enter valid userName and valid password",
         "aggregatedDurations": {
-          "average": 0.473730737,
-          "median": 0.473730737
+          "average": 0.976791996,
+          "median": 0.976791996
         },
         "durations": [
           {
-            "duration": 0.473730737,
+            "duration": 0.976791996,
             "location": "MyApplication.feature:25"
           }
         ]
@@ -59,12 +59,12 @@
       {
         "name": "user should be able to login successfully",
         "aggregatedDurations": {
-          "average": 3.609047761,
-          "median": 3.609047761
+          "average": 2.871956814,
+          "median": 2.871956814
         },
         "durations": [
           {
-            "duration": 3.609047761,
+            "duration": 2.871956814,
             "location": "MyApplication.feature:26"
           }
         ]
