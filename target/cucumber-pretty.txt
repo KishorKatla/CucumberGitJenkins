@@ -1,0 +1,25 @@
+#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+Feature: Test Facebook smoke scenario
+
+  Scenario: Test Login with Valid Credentials      [90m# MyApplication.feature:23[0m
+    [32mGiven [0m[32mOpen firefox and start application[0m       [90m# SmokeTest.open_firefox_and_start_application()[0m
+    [32mWhen [0m[32mI enter valid userName and valid password[0m [90m# SmokeTest.i_enter_valid_userName_and_valid_password()[0m
+    [32mThen [0m[32muser should be able to login successfully[0m [90m# SmokeTest.user_should_be_able_to_login_successfully()[0m
+    [32mThen [0m[32mapplication should be closed[0m              [90m# SmokeTest.application_should_be_closed()[0m
